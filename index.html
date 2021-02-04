@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie</title>
+</head>
+<body >
+<div class="wrapper">
+    <div class="list-wrapper">
+        <h1 class="main-title">Find the movie</h1>
+        <div class="form-group search-block">
+            <input type="text" class="search-input form-control">
+                <ul class="filters">
+                    <li data-filter="raiting-max"><a href="" class="raiting-max">Рейтинг макс.</a></li>
+                    <li data-filter="raiting-min"><a href="" class="raiting-min">Рейтинг мин.</a></li>
+                    <li data-filter="date-new"><a href="" class="date-new">Новые</a></li>
+                    <li data-filter="date-old"><a href="" class="date-old">Старые</a></li>
+                </ul>
+        </div>
+        <div class="movies"></div>
+    </div>
+    <div class="movie-wrapper"></div>
+</div>
+
+<script type=module src="js/components/index.js"></script>
+</body>
+</html>
